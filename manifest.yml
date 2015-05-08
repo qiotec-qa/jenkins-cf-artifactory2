@@ -1,0 +1,8 @@
+---
+applications:
+- name: SpringMongoDB
+  memory: 512M
+  instances: 1
+  host: SpringMongoDB
+  path: target/SpringWithMongoDB-0.0.1-SNAPSHOT.war
+
