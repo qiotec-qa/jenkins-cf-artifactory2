@@ -3,7 +3,7 @@ applications:
 - name: SpringMongoDB
   memory: 512M
   instances: 1
-  host: springMongoDBranjan
+  host: springranjan
   path: target/SpringWithMongoDB-0.0.1-SNAPSHOT.war
   domain: cfapps.io 
   env:
