@@ -13,4 +13,9 @@ public class MongoDBUI {
 		return MongoUtils.main2(null);
 	}
 
+	@RequestMapping("/")
+	public @ResponseBody String getDBData() {
+		return MongoUtils.main2(null);
+	}
+
 }
