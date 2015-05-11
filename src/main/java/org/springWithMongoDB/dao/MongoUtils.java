@@ -150,7 +150,7 @@ public class MongoUtils {
 			DBCursor cur = coll.find();
 			StringBuffer buffer = new StringBuffer();
 			while (cur.hasNext()) {
-				buffer.append("<iv class='basicDiv'>"+cur.next().toString() + "</div><br/><br/><br/>");
+				buffer.append("<div class='basicDiv'>"+cur.next().toString() + "</div><br/><br/><br/>");
 			}
 			System.out.println(buffer.toString());
 			return buffer.toString();
