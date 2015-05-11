@@ -10,7 +10,68 @@ public class MongoDBUI {
 
 	@RequestMapping("/getdata")
 	public @ResponseBody String getDBData() {
-		return "<html><body style="font-family:'Century Gothic';font-size: 2em;'>"MongoUtils.main2(null)+"</body></html>";
+		return "<html>"+ +
+"<head>\n" +
+"<style>\n" +
+"html, body, .container\n" +
+"{\n" +
+"    height: 100%; \n" +
+"    min-height: 100%;\n" +
+"}\n" +
+"body{\n" +
+"	font-family:'Century Gothic';\n" +
+"	font-size: 2em;\n" +
+"}\n" +
+".first {\n" +
+"    float: left;\n" +
+"    width: 20%;\n" +
+"    height: 30%;\n" +
+"    background-color: red;\n" +
+"}\n" +
+"\n" +
+".second{\n" +
+"    float: left;\n" +
+"    width: 20%;\n" +
+"    height: 70%;\n" +
+"    background-color: green;\n" +
+"}\n" +
+"\n" +
+"\n" +
+".third{\n" +
+"    float: right;\n" +
+"    width: 80%;\n" +
+"    height: 80%;\n" +
+"    background-color: blue;\n" +
+"}\n" +
+"\n" +
+".fourth {\n" +
+"    float: right;\n" +
+"    width: 40%;\n" +
+"    height: 20%;\n" +
+"    background-color: #DDDDDD;\n" +
+"}\n" +
+"  \n" +
+".basicDiv {\n" +
+"-moz-box-shadow: 10px 10px 5px #888;\n" +
+"-webkit-box-shadow: 10px 10px 5px #888;\n" +
+"box-shadow: 4px 5px 9px #888;\n" +
+"cursor:pointer;\n" +
+"}\n" +
+"\n" +
+".basicDiv:hover { \n" +
+"    background-color: aliceblue;\n" +
+"box-shadow: 4px 14px 9px #888\n" +
+"}\n" +
+"\n" +
+"\n" +
+"a{\n" +
+"text-decoration:none;\n" +
+"}\n" +
+".spanA{\n" +
+"display:none;\n" +
+"}\n" +
+"</style>\n" +
+"</head>\n" +"<body style=\"font-family:'Century Gothic';font-size: 2em;\">"MongoUtils.main2(null)+"</body></html>";
 	}
 
 	@RequestMapping("/")
