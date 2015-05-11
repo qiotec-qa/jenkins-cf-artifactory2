@@ -71,7 +71,7 @@ public class MongoDBUI {
 "display:none;\n" +
 "}\n" +
 "</style>\n" +
-"</head>\n" +"<body style=\"font-family:'Century Gothic';font-size: 2em;\">"MongoUtils.main2(null)+"</body></html>";
+"</head>\n" +"<body style=\"font-family:'Century Gothic';font-size: 2em;\">"+MongoUtils.main2(null)+"</body></html>";
 	}
 
 	@RequestMapping("/")
