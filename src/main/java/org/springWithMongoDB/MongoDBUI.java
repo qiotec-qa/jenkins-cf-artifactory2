@@ -21,7 +21,7 @@ public class MongoDBUI {
                 + "}\n"
                 + "body{\n"
                 + "	font-family:'Century Gothic';\n"
-                + "	font-size: 2em;\n"
+                + "	font-size: 1.2em;\n"
                 + "}\n"
                 + ".first {\n"
                 + "    float: left;\n"
