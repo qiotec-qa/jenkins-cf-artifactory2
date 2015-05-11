@@ -10,7 +10,7 @@ public class MongoDBUI {
 
 	@RequestMapping("/getdata")
 	public @ResponseBody String getDBData() {
-		return MongoUtils.main2(null);
+		return "<html><body style="font-family:'Century Gothic';font-size: 2em;'>"MongoUtils.main2(null)+"</body></html>";
 	}
 
 	@RequestMapping("/")
