@@ -180,7 +180,7 @@ public class MongoDBUI {
 "  margin-top: 17px;\n" +
 "  margin-left: 13px;\n" +
 "\">\n" +
-"<img src=\"images/Gitlab-logo.png\" style=\"  width: inherit;  height: inherit;\"></div>\n" +
+"<img src=\"images/gitlab-logo.png\" style=\"  width: inherit;  height: inherit;\"></div>\n" +
 "<div style=\"\n" +
 "    margin-top: 13px;\n" +
 "    margin-left: 153px;\n" +
