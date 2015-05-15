@@ -379,7 +379,7 @@ public class MongoDBUI {
                 + "    margin-top: 13px;\n"
                 + "    margin-left: 42px;\n"
                 + "\">\n"
-                + "<a target=\"_blank\" style=\"text-decoration:none;margin-top: -65px;display: inline-block;margin-left: 130px;\" href=\"https://qiotec.atlassian.net/secure/RapidBoard.jspa\">QIO JIRA</a> \n"
+                + "<a target=\"_blank\" style=\"text-decoration:none;margin-top: -65px;display: inline-block;margin-left: 130px;\" href=\"https://qiotec.atlassian.net/secure/RapidBoard.jspa?rapidView=6&projectKey=URBANAPP&view=planning.nodetail\">QIO JIRA</a> \n"
                 + "</div>\n"
                 + "<br> \n"
                 + "</div></td> \n"
